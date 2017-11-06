@@ -1,6 +1,7 @@
 source 'http://rubygems.org'
 
-ruby '2.3.1'
+ruby '2.4.1'
 
-gem 'fluentd', '~> 0.12.29'
-gem 'fluent-plugin-td', '= 0.10.29'
+gem 'fluentd', '0.14.13'
+gem 'fluent-plugin-td', '1.0.0.rc1'
+gem 'fluent-plugin-dynamodb', '0.2.0'
